@@ -11,7 +11,7 @@ package com.atguigu.core.bean;
 import com.atguigu.core.utils.SQLFilter;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * 查询参数

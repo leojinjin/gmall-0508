@@ -38,6 +38,7 @@ public class DbConfig {
     @Bean
     @Primary
     public GeneratorDao getGeneratorDao(){
+
         if("mysql".equalsIgnoreCase(database)){
             return mySQLGeneratorDao;
         }else if("oracle".equalsIgnoreCase(database)){
